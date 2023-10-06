@@ -173,7 +173,7 @@ h4{
 
 .object-cover img {
     position: absolute;
-    object-fit: cover;
+    /* object-fit: cover; */
     width: var(--percent100);
     height: var(--percent100);
     display: block;
@@ -408,7 +408,6 @@ nav .fly-item {
 
 
 
-
 /* SEARCH FORM */
 
 .header-main .right {
@@ -576,19 +575,18 @@ form.search button:hover {
         background-color: var(--white-color);
         border: 1px solid var(--border-color);
         border-top: 0;
-        border-bottom: 0;
+        border-bottom: 0; 
     }
     .dpt-menu > ul > li > a {
         font-weight: var(--fw5);
         padding: 0 1.5em;
         border-bottom: 1px solid var(--border-color);
     }
-
     .dpt-menu .has-child > ul, .dpt-menu .mega {
         position: absolute;
         top: 0;
         left: var(--percent100);
-        right: var(--percent100);
+        width: var(--percent100);
         height: auto;
         min-height: var(--percent100);
         padding: 1.5em;
@@ -598,7 +596,6 @@ form.search button:hover {
         border-top: 0;
         display: none;
     }
-    
 
     /* showing the first sub menu */
 
