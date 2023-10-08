@@ -458,6 +458,15 @@ form.search button:hover {
     background-color: var(--white-color);
     overflow-y: auto;
     z-index: 1000;
+    transform: translate(-100%);
+    visibility: hidden;
+    transition: transform .4s, visibility .4s;
+    will-change: transform, visibility;
+}
+.showmenu .site-off {
+    transform: translateX(0);
+    visibility: visible;
+    transform: transform .4s 0s, visibility 0s 0s;
 }
 .off-canvas {
     width: var(--percent100);
@@ -515,6 +524,10 @@ form.search button:hover {
     overflow: hidden;
     transition: max-height .3s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
+.off-canvas .expand > :where(ul, .mega) {
+    max-height: 2000px;
+}
+
 .off-canvas .thetop-nav ul, .off-canvas nav > ul {
     flex-direction: column;
     align-items: flex-start;
@@ -555,6 +568,22 @@ form.search button:hover {
 }
 
 
+/* SLIDERS */
+.slider > div > .wrapper {
+    width: calc(100% - (300px + 2em));
+    margin-left: auto;
+}
+.slider .item {
+    position: relative;
+    height: 474px;
+}
+.slider .text-content {
+    position: relative;
+    height: var(--percent100);
+    justify-content: flex-end;
+    padding: 0 0 10% 20%;
+    z-index: 1;
+}
 
 
 
