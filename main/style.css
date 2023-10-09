@@ -702,7 +702,7 @@ form.search button:hover {
         background-color: var(--white-color);
         border: 1px solid var(--border-color);
         border-top: 0;
-        border-bottom: 0; 
+        border-bottom: 0;
     }
     .dpt-menu > ul > li > a {
         font-weight: var(--fw5);
@@ -722,6 +722,7 @@ form.search button:hover {
         border: 1px solid var(--border-color);
         border-top: 0;
         display: none;
+        background-color: var(--light-bg-color);
     }
 
     /* showing the first sub menu */
@@ -743,5 +744,10 @@ form.search button:hover {
     }
     .dpt-menu .has-child:hover .mega {
         display: flex;
+        line-height: initial;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: var(--percent100);
     }
 }
