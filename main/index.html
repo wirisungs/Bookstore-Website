@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookstore</title>
+    <title>Tiki Taka - Ở đây tôi bán sách rẻ nhất Việt Nam</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-</head>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 <body>
     <div id="page" class="site">
 
@@ -67,7 +70,7 @@
                     <div class="wrapper flexitem">
                         <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
                         <div class="left flexitem">
-                            <div class="logo"><a href="/"><span class="circle"></span>Tiki Taka</a></div>
+                            <div class="logo"><a href="/"><i class="ri-book-open-fill"></i>Tiki Taka</a></div> <!-- logo tạm thời -->
                             <nav class="mobile-hide">
                                 <ul class="flexitem second-links">
                                     <li><a href="#">HOME</a></li>
@@ -468,7 +471,6 @@
                                                         </ul>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </li>
@@ -493,19 +495,40 @@
         <div class="slider">
             <div class="container">
                 <div class="wrapper">
-                    <div class="myslider">
-                        <div class="wrapper">
-                            <div class="slide">
+                    <div class="myslider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
                                 <div class="item">
                                     <div class="image object-cover">
                                         <img src="assets/sliders/slider1.png" alt="">
                                     </div>
                                     <div class="text-content flexcol">
-                                        <a href="" class="primary-button">Mua đi mua đi</a>
+                                        <a href="#" class="primary-button">Mua đi mua đi</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="assets/sliders/slider1.png" alt="">
+                                    </div>
+                                    <div class="text-content flexcol">
+                                        <a href="#" class="primary-button">Mua đi mua đi</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="assets/sliders/slider1.png" alt="">
+                                    </div>
+                                    <div class="text-content flexcol">
+                                        <a href="#" class="primary-button">Mua đi mua đi</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -515,6 +538,7 @@
 
     </footer>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

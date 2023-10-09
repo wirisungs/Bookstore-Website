@@ -584,6 +584,9 @@ form.search button:hover {
     padding: 0 0 10% 20%;
     z-index: 1;
 }
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--primary-color);
+}
 
 
 
@@ -742,7 +745,7 @@ form.search button:hover {
         width: auto;
         min-width: var(--percent100);
     }
-    .dpt-menu .has-child:hover .mega {
+    .dpt-menu .has-child:hover .mega { /* Ráng fix lại thanh nav */
         display: flex;
         line-height: initial;
         flex-direction: column;

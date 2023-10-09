@@ -40,3 +40,14 @@ function toggle(e) {
     if (this.closet('.has-child').classList != 'expand');
     this.closest('.has-child').classList.toggle('expand')
 }
+
+//slider - đm configure quài mà nó ko chạy, chảnh thế
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+});
