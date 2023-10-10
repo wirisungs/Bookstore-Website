@@ -51,3 +51,23 @@ const swiper = new Swiper('.swiper', {
     },
 
 });
+
+
+
+function myFunction() {
+    document.getElementsByClassName(".dpt-menu .has-child").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+        if (!event.target.matches('.dpt-btn')) {
+            var dropdowns = document.getElementsByClassName(".dpt-menu .has-child");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+myFunction();
