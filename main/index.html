@@ -149,9 +149,8 @@
                                     </li>
                                     <li class="has-child">
                                         <a href="#">FAQ
-                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
                                         </a>
-                                        <div class="mega">
+                                        <!-- <div class="mega">
                                             <div class="container">
                                                 <div class="wrapper">
                                                     <div class="flexcol">
@@ -219,13 +218,13 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </li>
                                     <li class="has-child">
                                         <a href="#">ABOUT US
-                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                            <!-- <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div> -->
                                         </a>
-                                        <div class="mega">
+                                        <!-- <div class="mega">
                                             <div class="container">
                                                 <div class="wrapper">
                                                     <div class="flexcol">
@@ -292,7 +291,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </li>
                                     <li>
                                         <a href="#">CONTACTS
@@ -332,13 +331,15 @@
                                 <div class="dpt-head">
                                     <div class="main-text">ALL CATEGORIES</div>
                                     <div class="mini-text mobile-hide">Mua đi cả nhà iu của kem</div>
-                                    <a href="" class="dpt-trigger mobile-hide">
-                                        <button class="dpt-btn" onclick="myFunction()">
+                                    <a href="#" class="dpt-trigger mobile-hide">
+                                        <button onclick="myFunction1()" class="dpt-btn">
                                             <i class="ri-menu-3-line ri-xl"></i>
                                         </button>
                                     </a>
                                 </div>
-                                <div class="dpt-menu">
+
+
+                                <div class="dpt-menu" id="myDropdown">
                                     <ul class="second-links">
                                         <li class="has-child all">
                                             <a href="#">
@@ -416,6 +417,18 @@
                                                 Booker Prize Winners & Nominees
                                             </a>
                                         </li>
+                                        <li class="has-child toy">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-book-2-fill"></i></div>
+                                                Merchandise
+                                            </a>
+                                        </li>
+                                        <li class="has-child stylist">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-book-2-fill"></i></div>
+                                                Makeup & Stylist
+                                            </a>
+                                        </li>
                                         <li class="has-child stationery">
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-book-2-fill"></i></div>
@@ -474,6 +487,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                     </li>
                                 </ul>
                             </div>
@@ -501,7 +515,7 @@
                             <div class="swiper-slide">
                                 <div class="item">
                                     <div class="image object-cover">
-                                        <img src="assets/sliders/btslider2.png" alt="">
+                                        <img src="assets/sliders/slider1.png" alt="">
                                     </div>
                                     <div class="text-content flexcol">
                                         <a href="#" class="primary-button">Mua đi mua đi</a>
@@ -611,7 +625,7 @@
                                             <ul>
                                                 <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
                                                 <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
                                             </ul>
                                         </div>
                                         <div class="discount circle flexcenter"><span>27%</span></div>
@@ -650,7 +664,7 @@
                                             <ul>
                                                 <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
                                                 <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
                                             </ul>
                                         </div>
                                         <div class="discount circle flexcenter"><span>27%</span></div>
@@ -684,7 +698,7 @@
                                             <ul>
                                                 <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
                                                 <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
                                             </ul>
                                         </div>
                                         <div class="discount circle flexcenter"><span>27%</span></div>
@@ -724,7 +738,285 @@
                             </div>
                         </div>
                         <div class="products main flexwrap">
-                            
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/rwrb.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">Red, White & Royal Blue</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/1367.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">1367</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/saour.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">Sword Art Online: Unital Ring Vol 24</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/rhsn.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">Bloom Into You - Vol 7</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/cdps.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">The Ancient Magus Bride - Vol 9</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/gstl.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">Gương Soi Tội Lỗi</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/sgh.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">Sau giờ học</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/hpwm.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">Harry Potter - Wizarding Almaniac</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row products mini">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/book/barway.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shopping-cart-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>27%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="main-links"><a href="#">The Barcelona Way</a></h3>
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="current">79.100₫</span>
+                                            <span class="normal mini-text">120.000₫</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

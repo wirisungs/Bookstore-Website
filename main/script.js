@@ -53,14 +53,15 @@ const swiper = new Swiper('.swiper', {
 });
 
 
+//show department menu
 
 function myFunction() {
-    document.getElementsByClassName(".dpt-menu .has-child").classList.toggle("show");
+    document.getElementsByClassName("dpt-menu").classList.toggle("show");
 }
 
-window.onclick = function(event) {
-        if (!event.target.matches('.dpt-btn')) {
-            var dropdowns = document.getElementsByClassName(".dpt-menu .has-child");
+window.onclick = function(e) {
+        if (!e.target.matches('.dpt-btn')) {
+            var dropdowns = document.getElementsByClassName("dpt-menu");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
@@ -70,4 +71,27 @@ window.onclick = function(event) {
         }
     }
 }
-myFunction();
+
+
+function myFunction1() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+    if(!e.target.matches('.dpt-btn')) {
+    var myDropdown = document.getElementById("myDropdown");
+        if(myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show')
+        }
+    }
+}
+
+
+function show_hide() {
+    var click = document.getElementsByClassName("dpt-menu");
+    if (click.style.display === "none") {
+       click.style.display = "block";
+    } else {
+       click.style.display = "none";
+    }
+ }
