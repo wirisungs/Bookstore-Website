@@ -95,3 +95,20 @@ function show_hide() {
        click.style.display = "none";
     }
  }
+
+ const btn_open = document.getElementById('dpt-btn')
+    const list = document.getElementById('myDropdown')
+
+    
+    
+    
+
+ 
+ btn_open.addEventListener("click",  function(){
+    if(list.style.display = 'none')
+    {
+        console.log('yes')
+    }
+        
+  });
+    
